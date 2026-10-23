@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rahul-murali-research.ph22resch11011.chatgpt.site/sitemap.xml
