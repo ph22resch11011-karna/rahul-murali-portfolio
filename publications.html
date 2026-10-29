@@ -1,0 +1,400 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Peer-reviewed journal publications by Rahul Murali in ultrafast spectroscopy, perovskite photophysics, nonlinear optics, and photonic materials.">
+  <meta name="author" content="Rahul Murali">
+  <meta name="theme-color" content="#07111f">
+
+  <title>Publications | Rahul Murali</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="editable.css">
+
+  <style>
+    /* Publications page: retain the existing site design */
+    .publications-intro {
+      max-width: 780px;
+      margin-bottom: 2rem;
+    }
+
+    .publication-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    .publication-item {
+      scroll-margin-top: 110px;
+      padding: 1.4rem;
+      border: 1px solid rgba(140, 255, 0, 0.18);
+      border-radius: 12px;
+      transition: border-color 0.25s ease, transform 0.25s ease;
+    }
+
+    .publication-item:hover {
+      border-color: var(--accent, #8cff00);
+      transform: translateY(-2px);
+    }
+
+    .publication-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.65rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .publication-year {
+      color: var(--accent, #8cff00);
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+    }
+
+    .publication-status {
+      color: inherit;
+      opacity: 0.8;
+      font-size: 0.78rem;
+      border: 1px solid currentColor;
+      border-radius: 20px;
+      padding: 0.2rem 0.6rem;
+    }
+
+    .publication-item h3 {
+      margin: 0 0 0.75rem;
+      font-family: "Manrope", sans-serif;
+      font-size: 1.08rem;
+      line-height: 1.55;
+    }
+
+    .publication-authors {
+      margin: 0 0 0.65rem;
+      font-size: 0.92rem;
+      line-height: 1.75;
+      overflow-wrap: anywhere;
+    }
+
+    .publication-journal {
+      margin: 0 0 1rem;
+      font-size: 0.9rem;
+      line-height: 1.7;
+      opacity: 0.8;
+    }
+
+    .publication-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 0.75rem;
+    }
+
+    .publication-actions a {
+      color: var(--accent, #8cff00);
+      font-size: 0.88rem;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .publication-actions a:hover {
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+
+    .publication-count {
+      margin-bottom: 1.5rem;
+      opacity: 0.8;
+    }
+
+    @media (max-width: 600px) {
+      .publication-item {
+        padding: 1rem;
+      }
+
+      .publication-item h3 {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="progress" aria-hidden="true"></div>
+
+  <header class="nav-wrap">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="index.html#top" aria-label="Rahul Murali home">
+        Rahul Murali<span>.</span>
+      </a>
+
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links">
+        Menu
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="index.html#about">Myself</a>
+        <a href="index.html#research">Research</a>
+        <a href="index.html#expertise">Expertise</a>
+        <a href="publications.html" aria-current="page">Publications</a>
+        <a href="index.html#extraactivities">Extra Curricular Activities</a>
+        <a class="nav-cta" href="index.html#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="section container">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 · Publications</p>
+        <h2>Research publications</h2>
+      </div>
+
+      <div class="publications-intro reveal">
+        <p>
+          My research spans ultrafast carrier and excited-state dynamics,
+          perovskite nanomaterials, quantum-light emission, nonlinear optics,
+          and photonic structures. This page lists my peer-reviewed journal
+          publications and accepted or in-press articles.
+        </p>
+      </div>
+
+      <div class="publication-list">
+
+        <article class="publication-item reveal" id="pub-1">
+          <div class="publication-meta">
+            <span class="publication-year">2026</span>
+          </div>
+          <h3>1. Bright and Stable Single-Photon Emission in Zinc-Alloyed CsPbBr₃ Nanocrystals Through Controlled Auger Recombination</h3>
+          <p class="publication-authors">
+            <strong>Murali, R.</strong>, Panda, M.K., Challa, R.K., Acharjee, D.,
+            Soma, V.R., Ghosh, S. and Raavi, S.S.K.
+          </p>
+          <p class="publication-journal"><em>Small</em>, 22(1), e05011 (2026).</p>
+          <div class="publication-actions">
+            <a href="https://scholar.google.com/scholar?q=Bright+and+Stable+Single-Photon+Emission+in+Zinc-Alloyed+CsPbBr3+Nanocrystals+Through+Controlled+Auger+Recombination" target="_blank" rel="noopener noreferrer"></a>
+          </div>
+        </article>
+
+        <article class="publication-item reveal" id="pub-2">
+          <div class="publication-meta">
+            <span class="publication-year">2026</span>
+          </div>
+          <h3>2. Interfacial Hot-Hole Relaxation and Transfer Dynamics from Lead-Halide Perovskite Nanocrystals to Corroles for Photodetector Applications</h3>
+          <p class="publication-authors">
+            <strong>Murali, R.</strong>, Barman, C., Palakkolil, A., Renikindi, S.,
+            Mahata, A., Giribabu, L., Soma, V.R. and Raavi, S.S.K.
+          </p>
+          <p class="publication-journal"><em>The Journal of Physical Chemistry Letters</em>, 17(20), 5872–5879 (2026).</p>
+          <div class="publication-actions">
+            <a href="https://scholar.google.com/scholar?q=Interfacial+Hot-Hole+Relaxation+and+Transfer+Dynamics+from+Lead-Halide+Perovskite+Nanocrystals+to+Corroles" target="_blank" rel="noopener noreferrer"></a>
+          </div>
+        </article>
+
+        <article class="publication-item reveal" id="pub-3">
+          <div class="publication-meta">
+            <span class="publication-year">2026</span>
+            <span class="publication-status">Accepted</span>
+          </div>
+          <h3>3. Low-Threshold Red Lasing in Diketopyrrolopyrrole-Based Organic Semiconductor Films</h3>
+          <p class="publication-authors">
+            Chitose, Y., Zenke, R., Saeki, T., Wei, H.Y., <strong>Murali, R.</strong>,
+            Fukuma, S., Kaya, Y., Mageswari, G.V., Raavi, S.S.K., Lin, J.H.,
+            Lin, T.C. and Adaichi, C.
+          </p>
+          <p class="publication-journal"><em>Angewandte Chemie International Edition</em> (accepted, 2026).</p>
+          <div class="publication-actions">
+            <a href="https://scholar.google.com/scholar?q=Low-Threshold+Red+Lasing+in+Diketopyrrolopyrrole-based+Organic+Semiconductor+Films" target="_blank" rel="noopener noreferrer"></a>
+          </div>
+        </article>
+
+        <article class="publication-item reveal" id="pub-4">
+          <div class="publication-meta">
+            <span class="publication-year">2026</span>
+          </div>
+          <h3>4. Engineering Highly Directional Bloch Surface Wave-Coupled Augmented Emission in Perovskite Nanocrystals Embedded Photonic Crystal</h3>
+          <p class="publication-authors">
+            Pandit, S., <strong>Murali, R.</strong>, Guha, P.K., Raavi, S.S.K.
+            and Bhaktha, B.N.S.
+          </p>
+          <p class="publication-journal"><em>APL Engineering Physics</em>, 1(4) (2026).</p>
+          <div class="publication-actions">
+            <a href="https://scholar.google.com/scholar?q=Engineering+highly+directional+Bloch+surface+wave-coupled+augmented+emission+in+perovskite+nanocrystals+embedded+photonic+crystal" target="_blank" rel="noopener noreferrer"></a>
+          </div>
+        </article>
+
+        <article class="publication-item reveal" id="pub-5">
+          <div class="publication-meta">
+            <span class="publication-year">2026</span>
+            <span class="publication-status">In press</span>
+          </div>
+          <h3>5. Exciton Localization and Trap-Assisted Recombination Govern Wavelength-Selective Photodetection in Lead-Free Cs₄CuSb₂Cl₁₂ Double Perovskite Nanocrystals</h3>
+          <p class="publication-authors">
+            Lavadiya, S., <strong>Murali, R.</strong>, Barman, C., Ahmed, M.S.,
+            Soma, V.R. and Raavi, S.S.K.
+          </p>
+          <p class="publication-journal"><em>Nanoscale</em> (in press, 2026).</p>
+          <div class="publication-actions">
+            <a href="https://scholar.google.com/scholar?q=Exciton+localization+and+trap-assisted+recombination+govern+wavelength-selective+photodetection+in+lead-free+Cs4CuSb2Cl12" target="_blank" rel="noopener noreferrer"></a>
+          </div>
+        </article>
+
+        <article class="publication-item reveal" id="pub-6">
+          <div class="publication-meta">
+            <span class="publication-year">2026</span>
+          </div>
+          <h3>6. Morphological Enhancements and Charge Recombination Mitigation in Non-Fullerene Organic Solar Cells Through Solvent Vapour Annealing</h3>
+          <p class="publication-authors">
+            Gavim, A.E., <strong>Murali, R.</strong>, Ahmed, M.S., Sireesha, L.,
+            Suresh, M., Torres, B.B., Raavi, S.S.K., Banerji, N., Faria, R.M.
+            and Miranda, P.B.
+          </p>
+          <p class="publication-journal"><em>Journal of Physics D: Applied Physics</em>, 59(2), 025502 (2026).</p>
+          <div class="publication-actions">
+            <a href="https://scholar.google.com/scholar?q=Morphological+enhancements+and+charge+recombination+mitigation+in+non-fullerene+organic+solar+cells+through+solvent+vapour+annealing" target="_blank" rel="noopener noreferrer"></a>
+          </div>
+        </article>
+
+        <article class="publication-item reveal" id="pub-7">
+          <div class="publication-meta">
+            <span class="publication-year">2026</span>
+          </div>
+          <h3>7. Impact of Substitution Position on the Excited-State Dynamics and Nonlinear Optical Properties of Tetraphenylethylene-Corroles</h3>
+          <p class="publication-authors">
+            <strong>Murali, R.</strong>, Sravani, R., Nenavath, S., Prasanthkumar, S.,
+            Soma, V.R., Giribabu, L. and Raavi, S.S.K.
+          </p>
+          <p class="publication-journal"><em>Chemistry – An Asian Journal</em>, 21(1), e70291 (2026).</p>
+          <div class="publication-actions">
+            <a href="https://scholar.google.com/scholar?q=Impact+of+Substitution+Position+on+the+Excited-State+Dynamics+and+Nonlinear+Optical+Properties+of+Tetraphenylethylene-Corroles" target="_blank" rel="noopener noreferrer"></a>
+          </div>
+        </article>
+
+        <article class="publication-item reveal" id="pub-8">
+          <div class="publication-meta">
+            <span class="publication-year">2025</span>
+          </div>
+          <h3>8. Impact of Ultrafast Carrier Cooling on the Open-Circuit Voltage in a Ag/Bi Co-Doped CsPbBr₃ NC-Based Photodetector</h3>
+          <p class="publication-authors">
+            Barman, C., <strong>Murali, R.</strong>, Soma, V.R. and Raavi, S.S.K.
+          </p>
+          <p class="publication-journal"><em>Optics Letters</em>, 50(12), 4042–4045 (2025).</p>
+          <div class="publication-actions">
+            <a href="https://scholar.google.com/scholar?q=Impact+of+ultrafast+carrier+cooling+on+the+open-circuit+voltage+in+a+Ag%2FBi+co-doped+CsPbBr3+NC+based+photodetector" target="_blank" rel="noopener noreferrer"></a>
+          </div>
+        </article>
+
+        <article class="publication-item reveal" id="pub-9">
+          <div class="publication-meta">
+            <span class="publication-year">2025</span>
+          </div>
+          <h3>9. FRET-Driven Hybrid Polymer–Perovskite Matrices for Efficient Pure-Red Emission</h3>
+          <p class="publication-authors">
+            Saxena, J., <strong>Murali, R.</strong>, Roy, A., Al Kahtani, A.A.,
+            Soma, V.R., Raavi, S.S.K. and Sadhanala, A.
+          </p>
+          <p class="publication-journal"><em>Nanoscale</em>, 17(13), 7753–7759 (2025).</p>
+          <div class="publication-actions">
+            <a href="https://scholar.google.com/scholar?q=FRET-driven+hybrid+polymer-perovskite+matrices+for+efficient+pure-red+emission" target="_blank" rel="noopener noreferrer"></a>
+          </div>
+        </article>
+
+        <article class="publication-item reveal" id="pub-10">
+          <div class="publication-meta">
+            <span class="publication-year">2025</span>
+          </div>
+          <h3>10. Unravelling Carrier Dynamics and Intensity-Dependent Multi-Photon Absorption of Gold Nanorods</h3>
+          <p class="publication-authors">
+            Moram, S.S.B., Challa, R.K., <strong>Murali, R.</strong>, Satani, S.K.,
+            Soma, V.R. and Raavi, S.S.K.
+          </p>
+          <p class="publication-journal"><em>Journal of Physics B: Atomic, Molecular and Optical Physics</em>, 58(17), 175601 (2025).</p>
+          <div class="publication-actions">
+            <a href="https://scholar.google.com/scholar?q=Unravelling+carrier+dynamics+and+intensity-dependent+multi-photon+absorption+of+gold+nanorods" target="_blank" rel="noopener noreferrer"></a>
+          </div>
+        </article>
+
+        <article class="publication-item reveal" id="pub-11">
+          <div class="publication-meta">
+            <span class="publication-year">2025</span>
+          </div>
+          <h3>11. Influence of a Diketopyrrolopyrrole Spacer on the Ultrafast Nonlinear Optical Properties and Excited State Dynamics of Dimeric Zinc Porphyrin Molecules</h3>
+          <p class="publication-authors">
+            <strong>Murali, R.</strong>, Biswas, C., Nayak, S.K., Wu, H., Peng, X.,
+            Kumar, V., Chetti, P., Soma, V.R. and Raavi, S.S.K.
+          </p>
+          <p class="publication-journal"><em>Journal of Materials Chemistry C</em>, 13(2), 691–708 (2025).</p>
+          <div class="publication-actions">
+            <a href="https://scholar.google.com/scholar?q=Influence+of+a+diketopyrrolopyrrole+spacer+on+the+ultrafast+nonlinear+optical+properties+and+excited+state+dynamics+of+dimeric+zinc+porphyrin+molecules" target="_blank" rel="noopener noreferrer"></a>
+          </div>
+        </article>
+
+        <article class="publication-item reveal" id="pub-12">
+          <div class="publication-meta">
+            <span class="publication-year">2025</span>
+          </div>
+          <h3>12. Novel Malononitrile Substituted Benzanthrone Dyes: Synthesis, Spectroscopic Characterization, and Combined Experimental-DFT Investigation of Third-Order Nonlinear Optical Properties</h3>
+          <p class="publication-authors">
+            Siddlingeshwar, B., Sujadevi, V., Kirilova, E.M., Thomas, A., Binoy, J.,
+            Chetti, P., <strong>Murali, R.</strong> and Raavi, S.S.K.
+          </p>
+          <p class="publication-journal"><em>Journal of Molecular Structure</em>, 143310 (2025).</p>
+          <div class="publication-actions">
+            <a href="https://scholar.google.com/scholar?q=Novel+malononitrile+substituted+benzanthrone+dyes+third-order+nonlinear+optical+properties" target="_blank" rel="noopener noreferrer"></a>
+          </div>
+        </article>
+
+        <article class="publication-item reveal" id="pub-13">
+          <div class="publication-meta">
+            <span class="publication-year">2024</span>
+          </div>
+          <h3>13. All-Optical Modulation and Photonic Diode Based on Spatial Self-Phase Modulation in Porphyrin–Naphthalimide Molecules</h3>
+          <p class="publication-authors">
+            Nayak, S.K., Ahmed, M.S., <strong>Murali, R.</strong>, Bhavani, B.,
+            Prasanthkumar, S., Giribabu, L. and Raavi, S.S.K.
+          </p>
+          <p class="publication-journal"><em>Journal of Materials Chemistry C</em>, 12(26), 9841–9852 (2024).</p>
+          <div class="publication-actions">
+            <a href="https://scholar.google.com/scholar?q=All-optical+modulation+and+photonic+diode+based+on+spatial+self-phase+modulation+in+porphyrin-naphthalimide+molecules" target="_blank" rel="noopener noreferrer"></a>
+          </div>
+        </article>
+
+        <article class="publication-item reveal" id="pub-14">
+          <div class="publication-meta">
+            <span class="publication-year">2024</span>
+          </div>
+          <h3>14. Harnessing Coherent Light–Matter Interactions for All-Optical Switching and Logic Gate Applications with Macrocyclic Phthalocyanines</h3>
+          <p class="publication-authors">
+            Nayak, S.K., Ahmed, M.S., <strong>Murali, R.</strong>, Barman, C.,
+            Srivishnu, K.S., Giribabu, L., Soma, V.R. and Raavi, S.S.K.
+          </p>
+          <p class="publication-journal"><em>ACS Applied Optical Materials</em>, 2(3), 453–465 (2024).</p>
+          <div class="publication-actions">
+            <a href="https://scholar.google.com/scholar?q=Harnessing+Coherent+Light-Matter+Interactions+for+All-Optical+Switching+and+Logic+Gate+Applications+with+Macrocyclic+Phthalocyanines" target="_blank" rel="noopener noreferrer"> </a>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="hero-actions reveal" style="margin-top: 2.5rem;">
+        <a class="button secondary" href="index.html#research">← Back to research</a>
+        <a class="button primary" href="index.html#contact">Get in touch ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="year"></span> Rahul Murali</p>
+      <p>Physics · Light · Nanomaterials</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
