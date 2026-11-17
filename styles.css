@@ -94,3 +94,69 @@
 .related-publications ul li a:hover {
     color: #39ff14 !important;
 }
+
+/* Research Group and Mentorship */
+
+.group-intro {
+    max-width: 900px;
+    margin: 30px 0 40px;
+    color: var(--muted);
+    font-size: 1.05rem;
+    line-height: 1.85;
+}
+
+.group-intro strong {
+    color: var(--text);
+}
+
+.group-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.group-card {
+    display: block;
+    padding: 32px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--text);
+    transition: transform .25s ease, border-color .25s ease;
+}
+
+.group-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--lime);
+}
+
+.group-number {
+    color: var(--mint);
+    font-size: .75rem;
+    letter-spacing: .13em;
+    font-weight: 700;
+}
+
+.group-card h3 {
+    font: 600 1.5rem "Manrope", sans-serif;
+    margin: 18px 0 12px;
+}
+
+.group-card p {
+    color: var(--muted);
+    line-height: 1.7;
+}
+
+.group-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: var(--lime);
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    .group-grid {
+        grid-template-columns: 1fr;
+    }
+}
