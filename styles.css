@@ -80,3 +80,17 @@
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+/* Related publications dropdown - improve readability */
+.related-publications summary {
+    color: #ffffff !important;
+}
+
+.related-publications ul li,
+.related-publications ul li a {
+    color: #ffffff !important;
+}
+
+.related-publications ul li a:hover {
+    color: #39ff14 !important;
+}
